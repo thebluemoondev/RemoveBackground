@@ -8,18 +8,23 @@ RemoveBackground
 git clone https://github.com/thebluemoondev/RemoveBackground
 ```
 
+**Cd RemoveBackGround*
+```html
+cd RemoveBackGround
+```
+
 **Create envirment**
 ```html
-    python venv -m venv
+python -m venv venv
 ```
 
 **Activity envirment**
 ```html
-    venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 **Download library withoutbg**
 ```html
-    pip install withoutbg
+pip install withoutbg
 ```
 
