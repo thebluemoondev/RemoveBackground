@@ -1,7 +1,7 @@
 from withoutbg import WithoutBG
 
-INPUT_IMAGE = ''
-OUTPUT_IMAGE = ''
+INPUT_IMAGE = ''  #<-- name_image_need_remove_bg
+OUTPUT_IMAGE = '' #<-- result
 
 remover = WithoutBG.opensource()
 result = remover.remove_background(INPUT_IMAGE)
