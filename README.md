@@ -8,7 +8,7 @@ RemoveBackground
 git clone https://github.com/thebluemoondev/RemoveBackground
 ```
 
-**Cd RemoveBackGround*
+**Cd RemoveBackGround**
 ```html
 cd RemoveBackGround
 ```
