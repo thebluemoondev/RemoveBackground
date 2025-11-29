@@ -1,5 +1,4 @@
 # RemoveBackground
-RemoveBackground
 
 **Open terminal cmd**
 
@@ -13,12 +12,12 @@ git clone https://github.com/thebluemoondev/RemoveBackground
 cd RemoveBackGround
 ```
 
-**Create envirment**
+**Create environment**
 ```html
 python -m venv venv
 ```
 
-**Activity envirment**
+**Activity environment**
 ```html
 venv\Scripts\activate
 ```
