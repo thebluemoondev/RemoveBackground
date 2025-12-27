@@ -11,13 +11,10 @@ def process_image():
     try:
         print(f"Starting background removal for: {INPUT_IMAGE}")
 
-        # Initialize the model
         remover = WithoutBG.opensource()
 
-        # Execute background removal
         result = remover.remove_background(INPUT_IMAGE)
 
-        # Save the result
         result.save(OUTPUT_IMAGE)
 
         print(f"✅ Success! Result saved to: {OUTPUT_IMAGE}")
